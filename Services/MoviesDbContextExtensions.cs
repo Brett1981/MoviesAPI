@@ -26,7 +26,7 @@ namespace MoviesAPI.Services
                     {
                          Name = "Black Panther",
                          Year = 2018
-                    }
+                    },
                };
             context.AddRange(movies);
             context.SaveChanges();

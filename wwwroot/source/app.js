@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import MovieList from './movieList.jsx';
+
 class App extends React.Component {
     render() {
         return (
@@ -10,7 +11,10 @@ class App extends React.Component {
         );
     }
 }
+
 ReactDOM.render(
     <App />,
     document.getElementById('container')
 );
+
+module.hot.accept();

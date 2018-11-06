@@ -23,7 +23,13 @@ class MovieList extends React.Component {
             <Movie key={movie.id} movieName={movie.name} movieYear={movie.year} />
         ));
         return (
-            <div>{movies}</div>
+            <div>
+                {movies}
+                <br />
+                {movies}
+                <br />
+                {movies}
+            </div>
         );
     }
 };
